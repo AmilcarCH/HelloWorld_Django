@@ -1,7 +1,9 @@
 Cython==0.27.3
-Django==1.9
+Django==2.0.1
+-e git://github.com/kmmbvnr/django-jenkins.git@f673c8ecded24eb56aeaef8d1c0caeb82208b595#egg=django_jenkins
 gunicorn==19.7.1
 numpy==1.14.0
 PyMySQL==0.8.0
 pystan==2.17.0.0
 pytz==2017.3
+uWSGI==2.0.15
