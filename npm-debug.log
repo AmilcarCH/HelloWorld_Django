@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'uninstall', 'csslint' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose config Skipping project config: /home/dti/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly uninstall loadAllDepsIntoIdealtree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune dti
+21 silly idealTree:prePrune ├── balanced-match@1.0.0
+21 silly idealTree:prePrune ├── brace-expansion@1.1.8
+21 silly idealTree:prePrune ├── cli@1.0.1
+21 silly idealTree:prePrune ├── clone@2.1.1
+21 silly idealTree:prePrune ├── concat-map@0.0.1
+21 silly idealTree:prePrune ├── console-browserify@1.1.0
+21 silly idealTree:prePrune ├── core-util-is@1.0.2
+21 silly idealTree:prePrune ├── date-now@0.1.4
+21 silly idealTree:prePrune ├─┬ dom-serializer@0.1.0
+21 silly idealTree:prePrune │ ├── domelementtype@1.1.3
+21 silly idealTree:prePrune │ └── entities@1.1.1
+21 silly idealTree:prePrune ├── domelementtype@1.3.0
+21 silly idealTree:prePrune ├── domhandler@2.3.0
+21 silly idealTree:prePrune ├── domutils@1.5.1
+21 silly idealTree:prePrune ├── entities@1.0.0
+21 silly idealTree:prePrune ├── exit@0.1.2
+21 silly idealTree:prePrune ├── fs.realpath@1.0.0
+21 silly idealTree:prePrune ├── glob@7.1.2
+21 silly idealTree:prePrune ├── htmlparser2@3.8.3
+21 silly idealTree:prePrune ├── inflight@1.0.6
+21 silly idealTree:prePrune ├── inherits@2.0.3
+21 silly idealTree:prePrune ├── isarray@0.0.1
+21 silly idealTree:prePrune ├── jshint@2.9.5
+21 silly idealTree:prePrune ├── lodash@3.7.0
+21 silly idealTree:prePrune ├── minimatch@3.0.4
+21 silly idealTree:prePrune ├── once@1.4.0
+21 silly idealTree:prePrune ├── parserlib@1.1.1
+21 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+21 silly idealTree:prePrune ├── readable-stream@1.1.14
+21 silly idealTree:prePrune ├── shelljs@0.3.0
+21 silly idealTree:prePrune ├── string_decoder@0.10.31
+21 silly idealTree:prePrune ├── strip-json-comments@1.0.4
+21 silly idealTree:prePrune └── wrappy@1.0.2
+22 silly loadIdealTree Finishing
+23 silly currentTree dti
+23 silly currentTree ├── balanced-match@1.0.0
+23 silly currentTree ├── brace-expansion@1.1.8
+23 silly currentTree ├── cli@1.0.1
+23 silly currentTree ├── clone@2.1.1
+23 silly currentTree ├── concat-map@0.0.1
+23 silly currentTree ├── console-browserify@1.1.0
+23 silly currentTree ├── core-util-is@1.0.2
+23 silly currentTree ├── csslint@1.0.5
+23 silly currentTree ├── date-now@0.1.4
+23 silly currentTree ├─┬ dom-serializer@0.1.0
+23 silly currentTree │ ├── domelementtype@1.1.3
+23 silly currentTree │ └── entities@1.1.1
+23 silly currentTree ├── domelementtype@1.3.0
+23 silly currentTree ├── domhandler@2.3.0
+23 silly currentTree ├── domutils@1.5.1
+23 silly currentTree ├── entities@1.0.0
+23 silly currentTree ├── exit@0.1.2
+23 silly currentTree ├── fs.realpath@1.0.0
+23 silly currentTree ├── glob@7.1.2
+23 silly currentTree ├── htmlparser2@3.8.3
+23 silly currentTree ├── inflight@1.0.6
+23 silly currentTree ├── inherits@2.0.3
+23 silly currentTree ├── isarray@0.0.1
+23 silly currentTree ├── jshint@2.9.5
+23 silly currentTree ├── lodash@3.7.0
+23 silly currentTree ├── minimatch@3.0.4
+23 silly currentTree ├── once@1.4.0
+23 silly currentTree ├── parserlib@1.1.1
+23 silly currentTree ├── path-is-absolute@1.0.1
+23 silly currentTree ├── readable-stream@1.1.14
+23 silly currentTree ├── shelljs@0.3.0
+23 silly currentTree ├── string_decoder@0.10.31
+23 silly currentTree ├── strip-json-comments@1.0.4
+23 silly currentTree └── wrappy@1.0.2
+24 silly idealTree dti
+24 silly idealTree ├── balanced-match@1.0.0
+24 silly idealTree ├── brace-expansion@1.1.8
+24 silly idealTree ├── cli@1.0.1
+24 silly idealTree ├── concat-map@0.0.1
+24 silly idealTree ├── console-browserify@1.1.0
+24 silly idealTree ├── core-util-is@1.0.2
+24 silly idealTree ├── date-now@0.1.4
+24 silly idealTree ├─┬ dom-serializer@0.1.0
+24 silly idealTree │ ├── domelementtype@1.1.3
+24 silly idealTree │ └── entities@1.1.1
+24 silly idealTree ├── domelementtype@1.3.0
+24 silly idealTree ├── domhandler@2.3.0
+24 silly idealTree ├── domutils@1.5.1
+24 silly idealTree ├── entities@1.0.0
+24 silly idealTree ├── exit@0.1.2
+24 silly idealTree ├── fs.realpath@1.0.0
+24 silly idealTree ├── glob@7.1.2
+24 silly idealTree ├── htmlparser2@3.8.3
+24 silly idealTree ├── inflight@1.0.6
+24 silly idealTree ├── inherits@2.0.3
+24 silly idealTree ├── isarray@0.0.1
+24 silly idealTree ├── jshint@2.9.5
+24 silly idealTree ├── lodash@3.7.0
+24 silly idealTree ├── minimatch@3.0.4
+24 silly idealTree ├── once@1.4.0
+24 silly idealTree ├── path-is-absolute@1.0.1
+24 silly idealTree ├── readable-stream@1.1.14
+24 silly idealTree ├── shelljs@0.3.0
+24 silly idealTree ├── string_decoder@0.10.31
+24 silly idealTree ├── strip-json-comments@1.0.4
+24 silly idealTree └── wrappy@1.0.2
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /home/dti/node_modules
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 warn enoent ENOENT: no such file or directory, open '/home/dti/package.json'
+34 warn dti No description
+35 warn dti No repository field.
+36 warn dti No README data
+37 warn dti No license field.
+38 verbose stack Error: EACCES: permission denied, access '/home/dti/node_modules'
+38 verbose stack     at Error (native)
+39 verbose cwd /home/dti/holamundoDjango/HelloWorld
+40 error Linux 4.10.0-32-generic
+41 error argv "/usr/bin/nodejs" "/usr/bin/npm" "uninstall" "csslint"
+42 error node v4.2.6
+43 error npm  v3.5.2
+44 error path /home/dti/node_modules
+45 error code EACCES
+46 error errno -13
+47 error syscall access
+48 error Error: EACCES: permission denied, access '/home/dti/node_modules'
+48 error     at Error (native)
+48 error  { [Error: EACCES: permission denied, access '/home/dti/node_modules']
+48 error   errno: -13,
+48 error   code: 'EACCES',
+48 error   syscall: 'access',
+48 error   path: '/home/dti/node_modules' }
+49 error Please try running this command again as root/Administrator.
+50 verbose exit [ -13, true ]
