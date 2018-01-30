@@ -1,8 +1,8 @@
 NAME="holamundo_app"                                   # Name of the application
-DJANGODIR=/home/dti/holamundoDjango/HelloWorld               # Django project directory
+DJANGODIR=/var/lib/jenkins/workspace/prueba               # Django project directory
 SOCKFILE=/tmp/gunicorn.sock  # we will communicte using this unix socket
-USER=www-data                                         # the user to run as
-GROUP=www-data                                        # the group to run as
+USER=root                                         # the user to run as
+GROUP=root                                        # the group to run as
 NUM_WORKERS=3                                       # how many worker processes should Gunicorn spawn
 DJANGO_SETTINGS_MODULE=HelloWorld.settings      # which settings file should Django use
 DJANGO_WSGI_MODULE=HelloWorld.wsgi              # WSGI module name
@@ -11,7 +11,7 @@ echo "Starting $NAME as `whoami`"
 # Activate the virtual environment
 
 cd $DJANGODIR
-source /home/dti/holamundoDjango/ve_holamundo/bin/activate
+source /var/lib/jenkins/workspace/holamundo/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHONPATH=$DJANGODIR:$PYTHONPATH
 
