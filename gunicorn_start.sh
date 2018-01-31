@@ -1,5 +1,5 @@
 NAME="holamundo_app"                                   # Name of the application
-DJANGODIR=/var/lib/jenkins/workspace/prueba               # Django project directory
+DJANGODIR=/var/lib/jenkins/workspace/prueba/HelloWorld               # Django project directory
 SOCKFILE=/var/lib/jenkins/workspace/prueba/holamundo/run/gunicorn.sock  # we will communicte using this unix socket
 USER=root                                         # the user to run as
 GROUP=root                                        # the group to run as
