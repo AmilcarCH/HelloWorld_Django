@@ -1,8 +1,8 @@
 NAME="holamundo_app"                                   # Name of the application
 DJANGODIR=/var/lib/jenkins/workspace/prueba               # Django project directory
 SOCKFILE=/var/lib/jenkins/workspace/prueba/holamundo/run/gunicorn.sock  # we will communicte using this unix socket
-USER=root                                         # the user to run as
-GROUP=root                                        # the group to run as
+USER=www-data                                         # the user to run as
+GROUP=www-data                                        # the group to run as
 NUM_WORKERS=3                                       # how many worker processes should Gunicorn spawn
 DJANGO_SETTINGS_MODULE=HelloWorld.settings      # which settings file should Django use
 DJANGO_WSGI_MODULE=HelloWorld.wsgi              # WSGI module name
