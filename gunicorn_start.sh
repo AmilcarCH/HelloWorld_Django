@@ -1,6 +1,6 @@
 NAME="holamundo_app"                                   # Name of the application
 DJANGODIR=/var/lib/jenkins/workspace/prueba               # Django project directory
-SOCKFILE=/root/gunicorn.sock  # we will communicte using this unix socket
+SOCKFILE=/tmp/gunicorn.sock  # we will communicte using this unix socket
 USER=root                                         # the user to run as
 GROUP=root                                        # the group to run as
 NUM_WORKERS=3                                       # how many worker processes should Gunicorn spawn
